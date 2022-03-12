@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    max-width: 100%;
+    width: auto;
+    height: 600px;
+    background-color: #ececdd;
+    
+}
+aside{
+    margin-top: 5px;
+}
+h1{
+    width: 550px;
+    margin-top: 76px;
+    font-size: 24px;
+
+}
+#gitimagem{
+    
+     width: 250px;
+     float: left;
+     margin-left: -530px;  
+     margin-top: 230px;   
+}
+#projetogit{
+    width: 480px;
+    height: 300px;
+    background-color: #aaaa91;
+    float: left;
+    margin-top: 130px;
+    margin-left: 30px;
+}
+
+#projetogit a{
+    color: #12122b;
+    font-size: 24px;
+    font-family: 'Hind Siliguri', sans-serif;
+    text-decoration: none;
+    margin-left: 100px;
+}
+#scanner{
+    width: 200px;
+}
+@media screen and(max-width: 480px) {
+
+    header{
+        max-width: 100%;
+        width: auto;
+        height: 727px;
+        background-color: #ececdd;
+        
+    }
+    aside{
+        margin-top: 110px;
+    }
+    h1{
+        width: 550px;
+        margin-top: 40px;
+        margin-left: 78px;
+        font-size: 20px;
+    
+    }
+    #gitimagem{
+    
+        width: 180px;
+        float: left;
+        margin-left: -530px;  
+        margin-top: 341px;   
+   }
+   #projetogit{
+    width: 400px;
+    height: 300px;
+    background-color: #aaaa91;
+    float: left;
+    margin-top: 268px;
+    margin-left: 0px;
+}
+
+
+#projetogit a{
+    color: #12122b;
+    font-size: 24px;
+    font-family: 'Hind Siliguri', sans-serif;
+    text-decoration: none;
+    margin-left: 100px;
+}
+#scanner{
+    width: 200px;
+}
+    
+}

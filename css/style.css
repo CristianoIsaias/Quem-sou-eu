@@ -1,0 +1,262 @@
+
+
+*{
+   margin: 0;
+   padding: 0;
+}
+
+nav{
+    margin-top: 10px;
+    padding: 30px;    
+    background-color: #12122b;
+    border-radius: 40px;
+   
+}
+
+menu{
+    margin-left: 966px;
+    
+}
+
+menu ul{   
+    margin-left: -290px;    
+    position: absolute;   
+    margin-top: -10px; 
+    
+    
+    
+}
+menu ul li {
+    padding: 20px;
+    display:inline;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;   
+    
+}
+   
+  menu ul li a:active {
+    color: #aa91a3;
+    box-shadow: -1px -1px 1px #000;
+     
+    }
+
+    a:link { color: black; }
+    a:visited { color: #aaaa91; }
+
+
+#eu{
+    width: 180px;
+    height: 220px;
+    border-radius: 120px 130px 120px 30px;
+    margin-right: 180px;
+    float: right;
+    margin-top: 20px;
+    border-style: solid ;
+    border-color:#aaaa91;
+}
+h1{
+    margin-top: 60px;
+    margin-left: 150px;
+    float: left;
+    color: #383845;
+    font-family: 'Hind Siliguri', sans-serif;   
+    
+}
+h2{
+   margin-top: 95px;
+   margin-left:-275px ;
+   float: left;
+   color: #5e5e5e;
+   font-family: 'Hind Siliguri', sans-serif;   
+   padding-top: 10px;
+}
+
+p{
+    margin-top: 50px;
+    margin-left: 150px;
+    float: left;
+    width: 980px;
+    font-size: 24px;
+    text-align: justify;
+    color: #5e5e5e;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+main{
+    max-width: 1320px;
+    min-width: 320px;
+    margin: auto;
+}
+
+aside{
+    width: auto;
+    height: 200px;
+    background-color: #12122b;
+    margin-top: 604px;
+    
+    
+}
+
+footer{
+    width: auto;
+    height: 50px;
+    background-color:#aaaa91;
+    margin-top: -20px;
+}
+footer h4{
+    margin-top: 0px;
+    color: #12122b;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 15px;
+    
+}
+
+#linkedin{
+    width: 3%;
+    margin-left: 106px;
+    margin-top: 800px;
+    float: left;
+}
+#facebook{
+    width: 3%;
+    margin-left: -30px;    
+    margin-top: -20px;
+    
+}
+#github{
+    width: 3%;
+    margin-left: 10px;   
+    margin-top: -20px;
+    
+}
+#overflow{
+    width: 5%;
+    margin-left: 0px;    
+    
+}
+
+
+@media screen and (max-width: 480px) {
+  
+    nav menu ul li a {
+        height: 4px;
+        width: 50px;
+        background-color: #000;
+        display: block;
+        margin: 4px;
+        transition: width 2s ease, margin-left 2s ease;
+      }
+
+      div:hover nav menu ul li a:nth-child(2) {
+        margin-left: 15px;
+      }
+      
+      div:hover nav menu ul li a{
+        width: 35px;
+        transition: width 2s ease, margin-left 2s ease;
+      }
+
+    h1{
+        margin-top: 60px;
+        margin-left: 36px;
+        float: left;
+        color: #383845;
+        font-size: 19px;  
+        font-family: 'Hind Siliguri', sans-serif;   
+        
+    }
+    h2{
+       margin-top: -5px;
+       margin-left:37px ;
+       float: left;
+       color: #5e5e5e;
+       font-family: 'Hind Siliguri', sans-serif; 
+       font-size: 19px;  
+       padding-top: 10px;
+    }
+    #eu{
+        width: 180px;
+        height: 220px;
+        border-radius: 120px 130px 120px 30px;
+        margin-right: 150px;
+        float: right;
+        margin-top: 20px;
+        border-style: solid ;
+        border-color:#aaaa91;
+    }
+    
+    p{
+        margin-top: 50px;
+        margin-left: 19px;
+        float: left;
+        width: 400px;
+        font-size: 18px;
+        text-align: justify;
+        color: #5e5e5e;
+        font-family: 'Hind Siliguri', sans-serif;
+    }
+    aside{
+        width: auto;
+        height: 200px;
+        background-color: #12122b;
+        margin-top: 848px;
+        
+        
+    }
+    
+    footer{
+    width: auto;
+    height: 50px;
+    background-color:#aaaa91;
+    margin-top: -6px;
+    }
+    footer h4{
+    margin-top: 0px;
+    color: #12122b;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 15px;
+    
+    }
+
+    #linkedin{
+        width: 9%;
+        margin-left: -9px;
+        margin-top: -20px;
+        float: left;
+    }
+    #facebook{
+        width: 3%;
+        margin-left: 22px;    
+        margin-top: -20px;
+        float: left;
+    }
+    #github{
+        width: 3%;
+        margin-left: 40px;   
+        margin-top: -20px;
+        float: left;
+    }
+    #overflow{
+        width: 5%;
+        margin-left: 54px;    
+        margin-top: -20px;
+        float: left;
+    }
+
+}   
+
+
+
+    
+
+
+
+
+
+
